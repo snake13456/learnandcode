@@ -1,18 +1,42 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
 
-# Other files and folders
+# log
+
+# eclipse ignore
 .settings/
+.project
+.classpath
+.externalToolBuilders
+bin/
+.factorypath
+.springBeans
+.metadata
+.recommenders
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# temp ignore
+*.log
+*.log.gz
+*.gz
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+#ios
+.apt_generated/
